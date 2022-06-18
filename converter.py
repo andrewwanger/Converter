@@ -24,7 +24,7 @@ def main(filename):
             newf = open(filename[:-4] + ".txt", "x")
             newf.write(finalwrite)
     else:
-        print("Not a valid command")
+        print("Command not valid")
 
 def format(hexstring, endian):
     address = 0
